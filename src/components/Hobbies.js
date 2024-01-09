@@ -37,7 +37,7 @@ const Hobbies = () => {
 
   return (
     <section className="my-8">
-      <header className="font-semibold text-lg md:text-2xl text-green-800">Моята страст</header>
+      <header className="font-semibold text-lg md:text-2xl text-green-800 mb-4">Моята страст</header>
       <figure className="relative">
         <img
           src={images[currentIndex]}
