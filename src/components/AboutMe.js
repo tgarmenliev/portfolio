@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section>
       <header className="flex items-center">
-        <h1 className="font-semibold text-lg md:text-2xl text-green-800">За мен</h1>
+        <h1 className="font-semibold text-lg md:text-2xl text-green-800 mb-4">За мен</h1>
       </header>
       <article className="border shadow-sm rounded-lg bg-gradient-to-r from-green-50 to-blue-50 p-4">
         <p>
