@@ -6,7 +6,7 @@ const Technologies = () => {
   return (
     <section>
       <header className="flex items-center">
-        <h1 className="font-semibold text-lg md:text-2xl text-green-800">Технологии</h1>
+        <h1 className="font-semibold text-lg md:text-2xl text-green-800 mb-4">Технологии</h1>
       </header>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         <Technology icon="python" name="Python" />
