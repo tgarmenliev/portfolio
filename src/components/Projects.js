@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <section>
       <header className="flex items-center">
-        <h1 className="font-semibold text-lg md:text-2xl text-green-800">Проекти</h1>
+        <h1 className="font-semibold text-lg md:text-2xl text-green-800 mb-4">Проекти</h1>
       </header>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {projectData.map((project, index) => (
